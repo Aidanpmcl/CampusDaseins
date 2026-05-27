@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Daseins — Apparel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="#" class="nav-logo">CAMPUS DASEINS</a>
+    <ul class="nav-links">
+      <li><a href="#collection">Collection</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-cart" aria-label="Cart">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-sub">New Drop — SS25</p>
+      <h1 class="hero-title">Wear<br/>Your<br/>Campus.</h1>
+      <a href="#collection" class="btn-primary">Shop the Drop</a>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-badge">EST. 2024</div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>CAMPUS DASEINS</span><span>★</span>
+      <span>AUTHENTIC STREETWEAR</span><span>★</span>
+      <span>MADE FOR THE CULTURE</span><span>★</span>
+      <span>CAMPUS DASEINS</span><span>★</span>
+      <span>AUTHENTIC STREETWEAR</span><span>★</span>
+      <span>MADE FOR THE CULTURE</span><span>★</span>
+      <span>CAMPUS DASEINS</span><span>★</span>
+      <span>AUTHENTIC STREETWEAR</span><span>★</span>
+      <span>MADE FOR THE CULTURE</span><span>★</span>
+    </div>
+  </div>
+
+  <!-- COLLECTION -->
+  <section class="collection" id="collection">
+    <div class="section-header">
+      <h2>The Collection</h2>
+      <p>Bold pieces built for real life.</p>
+    </div>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="product-img placeholder-img" style="background:#1a1a1a;">
+          <span class="product-tag">New</span>
+        </div>
+        <div class="product-info">
+          <h3>Campus Heavyweight Tee</h3>
+          <p class="product-price">$42</p>
+        </div>
+        <button class="btn-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img placeholder-img" style="background:#2c2c2c;">
+          <span class="product-tag">Best Seller</span>
+        </div>
+        <div class="product-info">
+          <h3>Daseins Crewneck</h3>
+          <p class="product-price">$78</p>
+        </div>
+        <button class="btn-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img placeholder-img" style="background:#3d3d3d;">
+        </div>
+        <div class="product-info">
+          <h3>Utility Cargo Pants</h3>
+          <p class="product-price">$95</p>
+        </div>
+        <button class="btn-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img placeholder-img" style="background:#111;">
+          <span class="product-tag">Limited</span>
+        </div>
+        <div class="product-info">
+          <h3>Logo Cap — Black</h3>
+          <p class="product-price">$35</p>
+        </div>
+        <button class="btn-cart">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <p class="about-label">Our Story</p>
+      <h2>Built on Campus,<br/>Made for Everywhere.</h2>
+      <p>Campus Daseins started as a passion project — a vision to bring authentic, no-bullshit streetwear to the students and creatives who shape the culture. Every piece is designed with intention and built to last.</p>
+      <a href="#contact" class="btn-outline">Get in Touch</a>
+    </div>
+    <div class="about-visual">
+      <div class="about-box">
+        <span class="stat-num">100+</span>
+        <span class="stat-label">Pieces Dropped</span>
+      </div>
+      <div class="about-box">
+        <span class="stat-num">SS25</span>
+        <span class="stat-label">Current Season</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Stay in the Loop</h2>
+    <p>Drop your email for early access, restocks, and new drops.</p>
+    <form class="email-form" onsubmit="handleSubmit(event)">
+      <input type="email" placeholder="your@email.com" required />
+      <button type="submit" class="btn-primary">Join</button>
+    </form>
+    <p class="contact-socials">
+      Also find us on
+      <a href="#">Instagram</a> &amp;
+      <a href="#">TikTok</a>
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Campus Daseins. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Shipping</a>
+      <a href="#">Returns</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
